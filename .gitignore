@@ -209,7 +209,11 @@ __marimo__/
 # Windows
 .exe
 .ps1
-.code-workspace
+*.code-workspace
 .bat
 .1
 activate
+
+# Environment-specific
+.venv_*/
+.venv_3.10_substack/
